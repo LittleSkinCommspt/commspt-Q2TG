@@ -145,7 +145,6 @@ export default class ForwardController {
       )
         return false;
       const member = await this.tgBot.getChat(event.newParticipant.userId);
-      await pair.qq.sendMsg(`${forwardHelper.getUserDisplayName(member.entity)} 加入了本群`);
     }
     catch (e) {
       this.log.error('处理 TG 群成员增加事件时遇到问题', e);
