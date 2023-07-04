@@ -1,5 +1,8 @@
 # Q2TG - without User Bot
+
 QQ 群与 Telegram 群相互转发的 bot，但是去除了 _UserBot_ 模式，再也不用担心杜叔叔瞎几把封号啦！
+
+**此 Fork 不再更新，建议回到 [Nofated095/Q2TG](https://github.com/nofated095/q2tg) 继续接收更新。**
 
 ## 为什么不需要 User Bot
 
